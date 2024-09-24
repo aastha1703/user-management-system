@@ -8,7 +8,6 @@ public class UsermanagementsystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UsermanagementsystemApplication.class, args);
-		System.out.println("My First Task");
 	}
 
 }

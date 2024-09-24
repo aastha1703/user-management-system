@@ -2,20 +2,16 @@ package com.example.ing.usermanagementsystem.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.ing.usermanagementsystem.entity.SingleUserResponse;
 import com.example.ing.usermanagementsystem.entity.User;
-//import com.example.ing.usermanagementsystem.entity.User;
 import com.example.ing.usermanagementsystem.entity.UserResponse;
 
 @Service
 public class UserService {
 	
-//	@Autowired
-//	User user;
 	
 	private final RestTemplate restTemplate;
 	
